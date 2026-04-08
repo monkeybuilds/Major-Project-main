@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\Savita Pathak\Desktop\Major Project\backend\catch_error.py", line 3, in <module>
+    import main
+  File "C:\Users\Savita Pathak\Desktop\Major Project\backend\main.py", line 8, in <module>
+    from routes.query import router as query_router
+  File "C:\Users\Savita Pathak\Desktop\Major Project\backend\routes\query.py", line 10, in <module>
+    from services.query_engine import ask_question
+  File "C:\Users\Savita Pathak\Desktop\Major Project\backend\services\query_engine.py", line 4, in <module>
+    from config import GOOGLE_API_KEY, LLM_MODEL_NAME
+ImportError: cannot import name 'GOOGLE_API_KEY' from 'config' (C:\Users\Savita Pathak\Desktop\Major Project\backend\config.py)
